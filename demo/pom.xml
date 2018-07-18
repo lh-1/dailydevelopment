@@ -76,6 +76,14 @@
         </dependency>
 
 
+        <!-- zk分布式锁实现jar -->
+        <dependency>
+            <groupId>org.apache.curator</groupId>
+            <artifactId>curator-recipes</artifactId>
+            <version>4.0.0</version>
+            <!--<classifier>sources</classifier>-->
+        </dependency>
+
 
     </dependencies>
 
