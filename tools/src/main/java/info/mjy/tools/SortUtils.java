@@ -1,6 +1,6 @@
 package info.mjy.tools;
 /**
- * this is a feature at 2018.724
+ * this is a master at 2018.724
  */
 
 import com.alibaba.fastjson.JSONObject;
