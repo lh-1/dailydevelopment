@@ -16,7 +16,7 @@ public class MongoDBTest {
 
     @Before
     public void before(){
-        MongoDB.connect("root", "runoob", "10.8.108.115", 27018);
+        MongoDB.connect("root", "userEntity", "10.8.108.115", 27018);
     }
 
     @Test

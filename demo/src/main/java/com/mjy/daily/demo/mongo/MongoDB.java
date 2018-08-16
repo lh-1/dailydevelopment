@@ -5,6 +5,7 @@ import com.mongodb.client.FindIterable;
 import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoCursor;
 import com.mongodb.client.MongoDatabase;
+import com.mongodb.client.model.IndexOptions;
 import com.mongodb.client.result.UpdateResult;
 import org.bson.Document;
 import org.bson.conversions.Bson;
@@ -155,6 +156,10 @@ public class MongoDB {
      */
     public static void deleteMany(Bson filter) {
         collection.deleteMany(filter);
+    }
+
+    public static void createIndex(Bson bson, IndexOptions indexOptions){
+        collection.createIndex(bson, indexOptions);
     }
 
 

@@ -9,4 +9,9 @@ import org.springframework.test.context.junit4.SpringRunner;
 @SpringBootTest(classes = DemoApplication.class)
 @ActiveProfiles("dev,local")
 public class BaseTest {
+
+    public static void main(String[] args) {
+
+    }
+
 }

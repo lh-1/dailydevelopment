@@ -136,4 +136,11 @@ public class JAVA8Test {
         int ab = -2147483648;
     }
 
+
+    @Test
+    public void testOptional() {
+        Optional<String> stringOptional = Optional.ofNullable(null);
+        System.err.println(stringOptional.get());
+    }
+
 }
